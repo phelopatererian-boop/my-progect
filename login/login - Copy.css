@@ -1,0 +1,106 @@
+body {
+  background-image:url(../images/bg.jpeg) ;
+  /* background-color: #094826; */
+  background-repeat: no-repeat;
+  margin: 0;
+  background-size: cover;
+  color: #4caf50;
+  /* font-family: "Merriweather", serif; */
+  /* color: #653815; */
+}
+nav
+a{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+    /* transition: ease 0.3s all; */
+}
+
+a:hover{
+  padding-inline: 15px;
+  /* background: #f9c043; */
+  color: #000000;
+  /* transition: ease 0.3s all; */
+}
+nav {
+  font-size: large;
+  padding: 10px;
+  background-color: #0d4b33;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+
+}
+ul {
+    font-size: larger;
+  list-style: none;
+}
+h2{
+  text-align: center;
+  font-size: 40px;
+}
+main{
+ text-align: center;
+}
+
+/* -------------------- */
+
+fieldset {
+  margin: 0 auto;
+background-color: #ffffff35;
+  width: 200px ;
+  margin-top: 50px;
+  border:0px;
+  border-radius: 5px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+  padding: 60px;
+text-align: left;
+  line-height: 35px;
+  font-size: large;
+  color: #000000;
+}
+main {
+  height: 800px;
+  padding: 20px;
+  border-radius: 20px;
+    text-align: center;
+}
+
+/* ----------------------------- */
+.submit {
+  border-radius: 10px;
+}
+.submit:hover{
+  background-color: #4caf50;
+  color: #fff;
+}
+.submit:active {
+  background-color: 	#4caf50;
+  color: rgb(0, 0, 0);
+}
+/* ------------------------------------ */
+input{
+  display: block;
+  border-radius: 5px;
+}
+/* ------------------------- */
+.submit{
+  display: inline-block;
+}
+.radio{
+  display: inline-block;
+}
+.checkbox{
+  display: inline-block;
+}
+/* ------------------------ */
+.page__footer {
+  background: #0d4b33;
+  padding: 10px;
+  color: #fff;
+ margin-top: auto;
+  border-radius: 5px;
+}
+.page__footer p {
+  color: #fff;
+}
